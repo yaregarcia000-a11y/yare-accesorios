@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YARE ACCESORIOS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><i>INICIO</i></a>
+            <a href="#nosotros">NOSOTROS</a>
+            <a href="#productos">PRODUCTOS</a>
+            <a href="#contactenos">CONTÁCTENOS</a>
+        </nav>
+    </header>
+
+    <div class="encabezado-img">
+        <p>Página elaborada por Yareysi Peñaranda García</p>
+        <h1>YARE ACCESORIOS</h1>
+        <br>
+        <p>Accesorios de moda seleccionados con esmero, calidad local y precios accesibles para todos.</p>
+        <!-- BOTÓN 1: Llamado a la acción -->
+        <a href="#productos" class="btn">✨ VER COLECCIÓN</a>
+    </div>
+
+    <section id="nosotros">
+        <h2>NOSOTROS</h2>
+        <p>Ofrecemos accesorios de moda con diseños innovadores, calidad artesanal y precios accesibles, satisfaciendo las necesidades de nuestros clientes con productos únicos y personalizados.</p>
+        <p><strong>Misión:</strong> Ofrecer accesorios de moda variados, de buena calidad, con precio justo y servicio ágil y confiable.</p>
+        <p><strong>Visión:</strong> Convertirnos en un referente de emprendimiento juvenil en Cali.</p>
+        <!-- BOTÓN 2: Conocer más -->
+        <a href="#contactenos" class="btn btn-pequeno">📞 Contáctanos</a>
+    </section>
+
+    <section id="productos">
+        <h2>PRODUCTOS</h2>
+        <div class="productos-grid">
+            <div class="producto">
+                <img src="anillos.jpeg" alt="Anillos surtidos">
+                <h3>Sets de anillos</h3>
+                <p>$10.000 - $18.000</p>
+                <!-- BOTÓN 3: Comprar -->
+                <a href="https://wa.me/573202617163" class="btn-comprar" target="_blank">🛒 Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="collares.jpeg" alt="Collares personalizables">
+                <h3>Collares con dijes</h3>
+                <p>$12.000 - $22.000</p>
+                <a href="https://wa.me/573202617163" class="btn-comprar" target="_blank">🛒 Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="pulseras.jpeg" alt="Pulseras">
+                <h3>Pulseras de amistad</h3>
+                <p>$8.000 - $15.000</p>
+                <a href="https://wa.me/573202617163" class="btn-comprar" target="_blank">🛒 Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="aretes.jpeg" alt="Aretes">
+                <h3>Aretes temáticos</h3>
+                <p>$12.000 - $22.000</p>
+                <a href="https://wa.me/573202617163" class="btn-comprar" target="_blank">🛒 Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactenos">
+        <h2>CONTÁCTENOS</h2>
+        <div class="contacto-info">
+            <p><strong>📍 Ubicación:</strong> Cali, Valle del Cauca</p>
+            <p><strong>📞 Teléfono:</strong> 3202617163</p>
+            <p><strong>✉️ Email:</strong> yare.accesorios@colegiovirtualsigloxxi.edu.co</p>
+            <p><strong>🕒 Horario:</strong> Lunes a viernes 2pm - 7pm</p>
+            <!-- BOTÓN 4: WhatsApp -->
+            <a href="https://wa.me/573202617163" class="btn-whatsapp" target="_blank">📱 Escríbenos por WhatsApp</a>
+        </div>
+
+       
+    <div class="formulario-contacto">
+        <h3>📝 Escríbenos un mensaje</h3>
+        <form action="mailto:yare.accesorios@colegiovirtualsigloxxi.edu.co" method="post" enctype="text/plain">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Opcional">
+
+            <label for="asunto">Asunto:</label>
+            <select id="asunto" name="asunto">
+                <option value="consulta">📌 Consulta general</option>
+                <option value="producto">💍 Información de producto</option>
+                <option value="pedido">🛒 Estado de pedido</option>
+                <option value="sugerencia">💡 Sugerencia</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <button type="submit" class="btn-enviar">✉️ Enviar mensaje</button>
+        </form>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 YARE ACCESORIOS</p>
+        <p>Desarrollado por: Yareysi Peñaranda García - Grado 11B</p>
+        <p>Colegio Virtual Siglo XXI</p>
+        <!-- BOTÓN 5: Volver arriba -->
+        <a href="#" class="btn-arriba">⬆️ Volver arriba</a>
+    </footer>
+</body>
+</html>
